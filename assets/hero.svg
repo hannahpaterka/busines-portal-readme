@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Business Portal</title>
+  <desc id="desc">Modern operations platform for field and office teams</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset=".55" stop-color="#0d1526"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset=".5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#2563eb" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity=".07"/>
+    </pattern>
+    <style>
+      .halo { animation: drift 8s ease-in-out infinite alternate; }
+      .dot { animation: pulse 2.4s ease-in-out infinite; }
+      .signal { animation: signal 4s ease-in-out infinite alternate; }
+      @keyframes drift {
+        from { transform: translateX(-24px); opacity: .7; }
+        to { transform: translateX(32px); opacity: 1; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: .4; }
+      }
+      @keyframes signal {
+        from { stroke-dashoffset: 180; opacity: .45; }
+        to { stroke-dashoffset: 0; opacity: 1; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+  <g class="halo">
+    <circle cx="230" cy="150" r="210" fill="url(#halo)"/>
+    <circle cx="1040" cy="80" r="130" fill="#22d3ee" opacity=".08"/>
+  </g>
+
+  <g transform="translate(72 64)">
+    <rect width="48" height="48" rx="13" fill="#2563eb" opacity=".18"/>
+    <rect x=".5" y=".5" width="47" height="47" rx="12.5" fill="none" stroke="#60a5fa" stroke-opacity=".4"/>
+    <path d="M14 17h20v17H14zM19 13h10v5H19zM19 23h3m4 0h3m-10 5h3m4 0h3"
+          fill="none" stroke="#7dd3fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="68" y="38" fill="#f8fafc" font-family="Inter,system-ui,sans-serif"
+          font-size="48" font-weight="700" letter-spacing="-1.5">Business Portal</text>
+    <text x="2" y="92" fill="#94a3b8" font-family="Inter,system-ui,sans-serif"
+          font-size="19">Operations, invoicing, and field coordination - connected.</text>
+
+    <g transform="translate(2 126)">
+      <circle class="dot" cx="5" cy="16" r="5" fill="#22c55e"/>
+      <text x="19" y="21" fill="#cbd5e1" font-family="Inter,system-ui,sans-serif"
+            font-size="12" font-weight="600" letter-spacing=".5">PRODUCTION</text>
+      <line x1="116" y1="9" x2="116" y2="23" stroke="#334155"/>
+      <text x="132" y="21" fill="#64748b" font-family="Inter,system-ui,sans-serif"
+            font-size="12" font-weight="600" letter-spacing=".5">SPRING BOOT / POSTGRESQL / HEROKU</text>
+    </g>
+  </g>
+
+  <g transform="translate(820 66)">
+    <text x="0" y="0" fill="#64748b" font-family="Inter,system-ui,sans-serif"
+          font-size="11" font-weight="600" letter-spacing="2">OPERATIONS SYSTEM</text>
+    <text x="0" y="30" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,monospace"
+          font-size="14">&lt;business_portal&gt;</text>
+    <path class="signal" d="M8 50v104m0-78h38m-38 52h38M46 76h76m-76 52h76"
+          fill="none" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="180"/>
+    <circle cx="8" cy="76" r="4" fill="#22d3ee"/>
+    <circle cx="8" cy="128" r="4" fill="#818cf8"/>
+    <text x="58" y="72" fill="#94a3b8" font-family="ui-monospace,SFMono-Regular,monospace"
+          font-size="12">workflow.process()</text>
+    <text x="58" y="94" fill="#475569" font-family="ui-monospace,SFMono-Regular,monospace"
+          font-size="11">orders / users / jobs</text>
+    <text x="58" y="124" fill="#94a3b8" font-family="ui-monospace,SFMono-Regular,monospace"
+          font-size="12">data.persist()</text>
+    <text x="58" y="146" fill="#475569" font-family="ui-monospace,SFMono-Regular,monospace"
+          font-size="11">invoices / notes / records</text>
+    <text x="0" y="182" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,monospace"
+          font-size="14">&lt;/business_portal&gt;</text>
+  </g>
+
+  <rect y="296" width="1200" height="4" rx="2" fill="url(#line)"/>
+</svg>

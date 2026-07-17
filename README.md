@@ -2,14 +2,14 @@
 
 <img src="assets/hero.svg" alt="Business Portal — operations, invoicing, and field coordination" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=800&color=22D3EE&center=true&vCenter=true&width=560&height=36&lines=Work+orders+%E2%80%94+assigned+and+tracked;Invoices+%E2%80%94+built+and+monitored;Field+teams+%E2%80%94+connected+on+the+go;Role-based+access+%E2%80%94+locked+down" alt="Work orders, invoices, field coordination, role-based access" />
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=800&color=17A2B8&center=true&vCenter=true&width=560&height=36&lines=Work+orders+%E2%80%94+assigned+and+tracked;Invoices+%E2%80%94+built+and+monitored;Field+teams+%E2%80%94+connected+on+the+go;Role-based+access+%E2%80%94+locked+down" alt="Work orders, invoices, field coordination, role-based access" />
 
 <p>
-  <a href="#capabilities"><img src="https://img.shields.io/badge/Features-0d1526?style=for-the-badge&logo=databricks&logoColor=22d3ee" alt="Features" /></a>
+  <a href="#capabilities"><img src="https://img.shields.io/badge/Features-212529?style=for-the-badge&logo=databricks&logoColor=17a2b8" alt="Features" /></a>
   &nbsp;
-  <a href="#architecture"><img src="https://img.shields.io/badge/Technology-0d1526?style=for-the-badge&logo=springboot&logoColor=60a5fa" alt="Technology" /></a>
+  <a href="#architecture"><img src="https://img.shields.io/badge/Technology-212529?style=for-the-badge&logo=springboot&logoColor=007bff" alt="Technology" /></a>
   &nbsp;
-  <a href="#product-tour"><img src="https://img.shields.io/badge/Screenshots-0d1526?style=for-the-badge&logo=googlephotos&logoColor=818cf8" alt="Screenshots" /></a>
+  <a href="#product-tour"><img src="https://img.shields.io/badge/Screenshots-212529?style=for-the-badge&logo=googlephotos&logoColor=17a2b8" alt="Screenshots" /></a>
 </p>
 
 </div>
@@ -38,38 +38,42 @@ A contract client needed to replace fragmented, manual processes with a single s
 <table>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/Initial_page_load-<2s-2563EB?style=for-the-badge&labelColor=1e3a8a" alt="Initial page load under 2 seconds" />
+      <img src="https://img.shields.io/badge/Initial_page_load-<2s-007BFF?style=for-the-badge&labelColor=212529" alt="Initial page load under 2 seconds" />
       <br /><sub>Server-rendered pages via Thymeleaf — no SPA boot cycle</sub>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/Process_automation-Unified_workflows-0891B0?style=for-the-badge&labelColor=164e63" alt="Unified workflow automation" />
+      <img src="https://img.shields.io/badge/Process_automation-Unified_workflows-17A2B8?style=for-the-badge&labelColor=212529" alt="Unified workflow automation" />
       <br /><sub>Work orders, invoicing, and user admin in one system</sub>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/Operational_efficiency-Single_source_of_truth-059669?style=for-the-badge&labelColor=064e3b" alt="Single source of truth" />
+      <img src="https://img.shields.io/badge/Operational_efficiency-Single_source_of_truth-0069C0?style=for-the-badge&labelColor=212529" alt="Single source of truth" />
       <br /><sub>One PostgreSQL database replaces fragmented records</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
       <br />
-      <img src="https://img.shields.io/badge/Field_access-Mobile_ready-16A34A?style=for-the-badge&labelColor=14532d" alt="Mobile-ready field access" />
+      <img src="https://img.shields.io/badge/Field_access-Mobile_ready-17A2B8?style=for-the-badge&labelColor=212529" alt="Mobile-ready field access" />
       <br /><sub>Maps, tap-to-call, and job lists for crews on site</sub>
     </td>
     <td align="center">
       <br />
-      <img src="https://img.shields.io/badge/Desktop_ops-Full_admin_suite-4F46E5?style=for-the-badge&labelColor=312e81" alt="Full desktop admin suite" />
+      <img src="https://img.shields.io/badge/Desktop_ops-Full_admin_suite-007BFF?style=for-the-badge&labelColor=212529" alt="Full desktop admin suite" />
       <br /><sub>Back-office search, batch actions, and record management</sub>
     </td>
     <td align="center">
       <br />
-      <img src="https://img.shields.io/badge/Access_control-Role--based_permissions-7C3AED?style=for-the-badge&labelColor=4c1d95" alt="Role-based access control" />
+      <img src="https://img.shields.io/badge/Access_control-Role--based_permissions-138496?style=for-the-badge&labelColor=212529" alt="Role-based access control" />
       <br /><sub>Distinct views for installers, dealers, vendors, and staff</sub>
     </td>
   </tr>
 </table>
 
 </div>
+
+<br />
+
+<img src="assets/divider.svg" alt="" width="100%" />
 
 <br />
 
@@ -86,44 +90,22 @@ A contract client needed to replace fragmented, manual processes with a single s
 
 <br />
 
+<img src="assets/divider.svg" alt="" width="100%" />
+
+<br />
+
 ## Architecture
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white" alt="Thymeleaf" />
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <br />
-      <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery" />
-    </td>
-    <td align="center">
-      <br />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-    </td>
-    <td align="center">
-      <br />
-      <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku" />
-    </td>
-    <td align="center">
-      <br />
-      <img src="https://img.shields.io/badge/Spring_MVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring MVC" />
-    </td>
-  </tr>
-</table>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+<img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white" alt="Thymeleaf" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/jQuery-007BFF?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku" />
+<img src="https://img.shields.io/badge/Spring_MVC-17A2B8?style=for-the-badge&logo=spring&logoColor=white" alt="Spring MVC" />
 
 </div>
 
@@ -136,12 +118,16 @@ A contract client needed to replace fragmented, manual processes with a single s
 
 <br />
 
+<img src="assets/divider.svg" alt="" width="100%" />
+
+<br />
+
 ## Product tour
 
 <table align="center">
   <tr>
     <td align="center">
-      <strong>Data model</strong>
+      <img src="https://img.shields.io/badge/Data_model-17A2B8?style=for-the-badge&labelColor=212529" alt="Data model" />
       <br /><br />
       <img src="images/database.png" alt="Database diagram" width="860" />
       <br />
@@ -155,14 +141,14 @@ A contract client needed to replace fragmented, manual processes with a single s
 <table align="center">
   <tr>
     <td align="center" width="50%">
-      <strong>User administration</strong>
+      <img src="https://img.shields.io/badge/User_administration-007BFF?style=for-the-badge&labelColor=212529" alt="User administration" />
       <br /><br />
       <img src="images/users.png" alt="Users management" width="440" />
       <br />
       <sub>Role-based management of installers, dealers, and vendors</sub>
     </td>
     <td align="center" width="50%">
-      <strong>Field operations</strong>
+      <img src="https://img.shields.io/badge/Field_operations-17A2B8?style=for-the-badge&labelColor=212529" alt="Field operations" />
       <br /><br />
       <img src="images/jobs.png" alt="Field list" width="440" />
       <br />
@@ -172,7 +158,7 @@ A contract client needed to replace fragmented, manual processes with a single s
   <tr>
     <td align="center" width="50%">
       <br />
-      <strong>Work-order detail</strong>
+      <img src="https://img.shields.io/badge/Work_order_detail-007BFF?style=for-the-badge&labelColor=212529" alt="Work order detail" />
       <br /><br />
       <img src="images/workorder.png" alt="Work order" width="440" />
       <br />
@@ -180,7 +166,7 @@ A contract client needed to replace fragmented, manual processes with a single s
     </td>
     <td align="center" width="50%">
       <br />
-      <strong>Invoice builder</strong>
+      <img src="https://img.shields.io/badge/Invoice_builder-17A2B8?style=for-the-badge&labelColor=212529" alt="Invoice builder" />
       <br /><br />
       <img src="images/invoice.png" alt="Invoice creator" width="440" />
       <br />
@@ -201,6 +187,13 @@ A contract client needed to replace fragmented, manual processes with a single s
 
 ---
 
+<img src="assets/divider.svg" alt="" width="100%" />
+
 <div align="center">
-  <sub><strong>Business Portal</strong> &nbsp;·&nbsp; Contract engagement &nbsp;·&nbsp; In production on Heroku</sub>
+
+**Business Portal**<br />
+<sub>Contract engagement &nbsp;·&nbsp; In production on Heroku</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:212529,50:007bff,100:17a2b8&height=100&section=footer" alt="" width="100%" />
+
 </div>

@@ -1,43 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
   <title id="title">Business Portal</title>
   <desc id="desc">Modern operations platform for field and office teams</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#212529"/>
-      <stop offset="1" stop-color="#2c3540"/>
+      <stop offset="0" stop-color="#eef7fc"/>
+      <stop offset=".5" stop-color="#dceefb"/>
+      <stop offset="1" stop-color="#c8e6f5"/>
     </linearGradient>
     <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset=".55" stop-color="#5bc0de"/>
+      <stop offset="0" stop-color="#0c4a6e"/>
+      <stop offset=".5" stop-color="#0369a1"/>
       <stop offset="1" stop-color="#17a2b8"/>
     </linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#007bff" stop-opacity="0"/>
-      <stop offset=".35" stop-color="#007bff"/>
-      <stop offset=".65" stop-color="#17a2b8"/>
-      <stop offset="1" stop-color="#17a2b8" stop-opacity="0"/>
-    </linearGradient>
     <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="46"/>
+      <feGaussianBlur stdDeviation="40"/>
     </filter>
     <style>
-      .aurora1 { animation: drift1 11s ease-in-out infinite alternate; }
-      .aurora2 { animation: drift2 9s ease-in-out infinite alternate; }
-      .aurora3 { animation: drift1 13s ease-in-out infinite alternate-reverse; }
+      .glow1 { animation: drift1 11s ease-in-out infinite alternate; }
+      .glow2 { animation: drift2 9s ease-in-out infinite alternate; }
       .dot { animation: pulse 2.4s ease-in-out infinite; }
-      .ring { animation: spin 26s linear infinite; transform-origin: 985px 150px; }
+      .ring { animation: spin 26s linear infinite; transform-origin: 985px 130px; }
       .ring.inner { animation-duration: 18s; animation-direction: reverse; }
       @keyframes drift1 {
-        from { transform: translate(-30px, 10px); }
-        to { transform: translate(40px, -14px); }
+        from { transform: translate(-20px, 8px); }
+        to { transform: translate(30px, -10px); }
       }
       @keyframes drift2 {
-        from { transform: translate(24px, -8px); }
-        to { transform: translate(-32px, 12px); }
+        from { transform: translate(18px, -6px); }
+        to { transform: translate(-24px, 10px); }
       }
       @keyframes pulse {
         0%, 100% { opacity: 1; }
-        50% { opacity: .35; }
+        50% { opacity: .4; }
       }
       @keyframes spin {
         to { transform: rotate(360deg); }
@@ -48,41 +42,37 @@
     </style>
   </defs>
 
-  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
-  <rect x=".5" y=".5" width="1199" height="299" rx="19.5" fill="none" stroke="#343a40"/>
+  <rect width="1200" height="260" rx="16" fill="url(#bg)"/>
 
   <g filter="url(#soft)">
-    <ellipse class="aurora1" cx="260" cy="60" rx="300" ry="110" fill="#007bff" opacity=".18"/>
-    <ellipse class="aurora2" cx="760" cy="270" rx="340" ry="120" fill="#17a2b8" opacity=".22"/>
-    <ellipse class="aurora3" cx="1080" cy="60" rx="240" ry="100" fill="#5bc0de" opacity=".16"/>
+    <ellipse class="glow1" cx="280" cy="80" rx="280" ry="100" fill="#7dd3fc" opacity=".45"/>
+    <ellipse class="glow2" cx="900" cy="200" rx="320" ry="110" fill="#38bdf8" opacity=".35"/>
+    <ellipse class="glow1" cx="1050" cy="60" rx="200" ry="90" fill="#5eead4" opacity=".25"/>
   </g>
 
-  <g class="ring" fill="none" stroke="#007bff" stroke-opacity=".18">
-    <circle cx="985" cy="150" r="104"/>
-    <circle cx="985" cy="150" r="104" stroke-dasharray="10 240" stroke="#17a2b8" stroke-opacity=".85" stroke-width="2" stroke-linecap="round"/>
+  <g class="ring" fill="none" stroke="#007bff" stroke-opacity=".15">
+    <circle cx="985" cy="130" r="90"/>
+    <circle cx="985" cy="130" r="90" stroke-dasharray="8 200" stroke="#17a2b8" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/>
   </g>
   <g class="ring inner" fill="none" stroke="#5bc0de" stroke-opacity=".2">
-    <circle cx="985" cy="150" r="66"/>
-    <circle cx="985" cy="150" r="66" stroke-dasharray="7 160" stroke="#007bff" stroke-opacity=".85" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="985" cy="130" r="58"/>
+    <circle cx="985" cy="130" r="58" stroke-dasharray="6 130" stroke="#007bff" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
   </g>
-  <circle cx="985" cy="150" r="7" fill="#17a2b8" opacity=".95"/>
-  <circle cx="985" cy="150" r="16" fill="none" stroke="#17a2b8" stroke-opacity=".35"/>
+  <circle cx="985" cy="130" r="6" fill="#17a2b8"/>
 
-  <g transform="translate(76 118)">
+  <g transform="translate(76 98)">
     <text y="0" fill="url(#titleGrad)" font-family="Inter,system-ui,sans-serif"
-          font-size="58" font-weight="800" letter-spacing="-2.5">Business Portal</text>
-    <text y="46" fill="#adb5bd" font-family="Inter,system-ui,sans-serif"
-          font-size="19" letter-spacing="-.2">Operations, invoicing, and field coordination &#8212; connected.</text>
+          font-size="52" font-weight="800" letter-spacing="-2">Business Portal</text>
+    <text y="42" fill="#475569" font-family="Inter,system-ui,sans-serif"
+          font-size="18">Operations, invoicing, and field coordination &#8212; connected.</text>
 
-    <g transform="translate(2 84)">
-      <circle class="dot" cx="6" cy="7" r="5.5" fill="#28a745"/>
-      <text x="22" y="12" fill="#dee2e6" font-family="Inter,system-ui,sans-serif"
-            font-size="13" font-weight="600" letter-spacing="1.5">PRODUCTION</text>
-      <text x="132" y="12" fill="#495057" font-family="Inter,system-ui,sans-serif" font-size="13">|</text>
-      <text x="148" y="12" fill="#6c757d" font-family="Inter,system-ui,sans-serif"
-            font-size="13" font-weight="500" letter-spacing="1">SPRING BOOT &#183; POSTGRESQL &#183; HEROKU</text>
+    <g transform="translate(2 72)">
+      <circle class="dot" cx="6" cy="7" r="5" fill="#28a745"/>
+      <text x="20" y="12" fill="#334155" font-family="Inter,system-ui,sans-serif"
+            font-size="13" font-weight="600" letter-spacing="1">PRODUCTION</text>
+      <text x="128" y="12" fill="#94a3b8" font-family="Inter,system-ui,sans-serif" font-size="13">|</text>
+      <text x="144" y="12" fill="#64748b" font-family="Inter,system-ui,sans-serif"
+            font-size="13" font-weight="500">Spring Boot &#183; PostgreSQL &#183; Heroku</text>
     </g>
   </g>
-
-  <rect x="60" y="294" width="1080" height="3" rx="1.5" fill="url(#edge)"/>
 </svg>
